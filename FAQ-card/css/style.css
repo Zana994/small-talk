@@ -23,6 +23,7 @@
 
 body {
     background-image: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -122,7 +123,7 @@ span.arrow {
     width: 80%;
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:412px) {
     div.container {
         flex-direction: column;
         margin: 30% auto;
