@@ -25,12 +25,14 @@ body {
     background-image: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     min-height: 100vh;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 70%;
     height: 500px;
-    margin: 6% auto;
     background-color: white;
     display: flex;
     justify-content: space-between;
